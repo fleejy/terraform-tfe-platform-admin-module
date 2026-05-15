@@ -1,0 +1,8 @@
+project-2:
+  name: PROJECT-2
+  project_team_access:
+    team-2: {}
+  project_variable_set:
+    arguments:
+      global: false
+      priority: true

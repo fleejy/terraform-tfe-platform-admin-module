@@ -1,0 +1,25 @@
+project-1:
+  name: PROJECT-1
+  project_variable_set:
+    arguments:
+      global: false
+      priority: true
+  variables:
+    variable1:
+      key: "var1"
+      value: "value1"
+      category: "terraform"
+      hcl: false
+      sensitive: false
+    variable2:
+      key: "var2"
+      value: "value2"
+      category: "env"
+      hcl: false
+      sensitive: true
+    variable3:
+      key: "var3"
+      value: "value3"
+      category: "terraform"
+      hcl: false
+      sensitive: false

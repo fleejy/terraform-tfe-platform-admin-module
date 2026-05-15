@@ -1,0 +1,22 @@
+project-3:
+  name: PROJECT-3
+  project_team_access: 
+    team-1: {}
+    team-2: {}
+  project_variable_set:
+    arguments:
+      global: false
+      priority: true
+  variables:
+    variable1:
+      key: "var1"
+      value: "value1"
+      category: "terraform"
+      hcl: false
+      sensitive: false
+    variable2:
+      key: "var2"
+      value: "value2"
+      category: "env"
+      hcl: false
+      sensitive: true

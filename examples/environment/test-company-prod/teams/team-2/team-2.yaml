@@ -1,0 +1,16 @@
+team-2:
+  name: team-2
+  visibility: organization
+  organization_access:
+    arguments:
+      read_workspaces: true
+      read_projects: true
+      manage_policies: true
+      manage_policy_overrides: true
+      manage_workspaces: true
+      manage_vcs_settings: true
+      manage_providers: true
+      manage_modules: true
+      manage_run_tasks: true
+      manage_projects: true
+      manage_membership: true

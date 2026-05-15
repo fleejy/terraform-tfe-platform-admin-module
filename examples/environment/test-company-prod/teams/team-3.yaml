@@ -1,0 +1,16 @@
+team-3:
+  name: team-3
+  visibility: secret
+  organization_access:
+    arguments:
+      read_workspaces: true
+      read_projects: false
+      manage_policies: false
+      manage_policy_overrides: false
+      manage_workspaces: false
+      manage_vcs_settings: false
+      manage_providers: false
+      manage_modules: false
+      manage_run_tasks: false
+      manage_projects: false
+      manage_membership: false
