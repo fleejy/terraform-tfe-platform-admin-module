@@ -12,11 +12,17 @@ This terraform module can be used to manage the lifecycle of objects within an o
 2. Create a deployment repository with the name `terraform-tfe-platform-admin-deployment`
 3. Copy the contents under the `examples` directory into the new repository you created. Make sure to modify the value for the `source` in the main.tf to point to the location of your module in the Private Registry.
 4. Through the UI, rename the default project in the org to `PLATFORM`
+<img width="1032" height="525" alt="image" src="https://github.com/user-attachments/assets/12b5a555-a940-48ca-93a0-dd4be0870042" />
+
 5. Through the UI, create a variable set named `platform-shared-variables` with the following key/value pairs created:
   - environment variables:
     - `TFE_TOKEN | <Supply a user API token that has no expiration from a service account or user in TFE that has admin privileges to the TFE installation as the value>`
+<img width="1186" height="996" alt="image" src="https://github.com/user-attachments/assets/4c9790d4-d0b0-4055-b4e5-5eed486c935c" />
+
 6. Associate the `platform-shared-variables` variable set to the `PLATFORM` project only
 7. Through the UI, create a workspace named `platform-admin-management` that will be used with the `terraform-tfe-platform-admin-deployment` repository
+<img width="1263" height="780" alt="image" src="https://github.com/user-attachments/assets/c123b284-f320-4cf7-8ebb-1efc1b266766" />
+
 8. Execute an apply run in that workspace to deploy the desired objects.
 9. Review the project workspaces that were deployed
 10. Commit new workspace yamls within the `terraform-tfe-platform-workspace-onboarding-deployment` repo to deploy new workspaces in the appropriate project through the project workspaces.
