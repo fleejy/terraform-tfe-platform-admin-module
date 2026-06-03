@@ -1,2 +1,2 @@
-tfe_hostname     = "touched-bedbug.zisom.sbx.hashidemos.io"
+tfe_hostname     = "app.terraform.io"
 tfe_organization = "test-company-prod"
